@@ -1,0 +1,57 @@
+[
+  {
+    "email": "shalkev@gmail.com",
+    "userId": "user_1769111000496",
+    "verified": true,
+    "createdAt": "2026-01-22T19:43:20.496Z",
+    "lastLogin": "2026-01-22T19:57:40.367Z",
+    "ip": "::1",
+    "location": "Lokal (Development)"
+  },
+  {
+    "email": "test@test.de",
+    "userId": "user_1769022231034",
+    "verified": false,
+    "verificationCode": "270813",
+    "createdAt": "2026-01-21T19:03:51.034Z"
+  },
+  {
+    "email": "test@example.com",
+    "userId": "user_1769110622360",
+    "verified": false,
+    "verificationCode": "570572",
+    "createdAt": "2026-01-22T19:37:02.360Z"
+  },
+  {
+    "email": "test3@example.com",
+    "userId": "user_1769110812586",
+    "verified": false,
+    "verificationCode": "857606",
+    "createdAt": "2026-01-22T19:40:12.586Z"
+  },
+  {
+    "email": "newuser@test.com",
+    "userId": "user_1769110918362",
+    "verified": false,
+    "verificationCode": "277787",
+    "createdAt": "2026-01-22T19:41:58.362Z"
+  },
+  {
+    "email": "ip_test@example.com",
+    "userId": "user_1769111692704",
+    "verified": false,
+    "verificationCode": "740010",
+    "createdAt": "2026-01-22T19:54:52.704Z",
+    "ip": "::1",
+    "location": "Lokal (Development)"
+  },
+  {
+    "email": "demo@privacy-shield.de",
+    "userId": "user_1769112160917",
+    "verified": true,
+    "createdAt": "2026-01-22T20:02:40.917Z",
+    "ip": "::1",
+    "location": "Lokal (Development)",
+    "lastLogin": "2026-01-22T20:02:47.546Z"
+  }
+]

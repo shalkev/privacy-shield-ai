@@ -1,0 +1,12 @@
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "hallo"
+        }
+    ],
+    "documentText": "Dies ist ein Test",
+    "analysisResult": {
+        "risks": []
+    }
+}
