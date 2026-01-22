@@ -37,8 +37,8 @@ export function Sidebar() {
         // Get current user info
         const currentUserId = getCurrentUserId();
         const email = getCurrentUserEmail();
-        setUserId(currentUserId);
-        setUserEmail(email || "Benutzer");
+        if (currentUserId !== userId) setUserId(currentUserId);
+        if (email !== userEmail) setUserEmail(email || "Benutzer");
 
         // Load tokens on mount
         if (currentUserId) {
