@@ -75,5 +75,14 @@
     "createdAt": "2026-01-23T18:05:36.995Z",
     "ip": "::1",
     "location": "Lokal (Development)"
+  },
+  {
+    "email": "test-verify-2@example.com",
+    "userId": "user_1769193043056",
+    "verified": false,
+    "verificationCode": "310542",
+    "createdAt": "2026-01-23T18:30:43.056Z",
+    "ip": "::1",
+    "location": "Lokal (Development)"
   }
 ]

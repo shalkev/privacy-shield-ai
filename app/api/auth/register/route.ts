@@ -49,7 +49,7 @@ export async function POST(req: Request) {
             const resend = new Resend(process.env.RESEND_API_KEY);
             try {
                 await resend.emails.send({
-                    from: 'Privacy Shield <onboarding@resend.dev>', // Change to your verified domain in production
+                    from: 'Privacy Shield <info@viknet.de>', // Change to your verified domain in production
                     to: email,
                     subject: 'Ihr Verifikationscode für Privacy Shield',
                     html: `
