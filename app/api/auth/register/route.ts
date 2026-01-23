@@ -4,7 +4,6 @@ import { getAllUsers, saveUsers, User } from '@/lib/db';
 import { headers } from 'next/headers';
 import { getLocationFromIP } from '@/lib/location';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
     try {
@@ -47,6 +46,7 @@ export async function POST(req: Request) {
 
         // Send email with Resend
         if (process.env.RESEND_API_KEY) {
+            const resend = new Resend(process.env.RESEND_API_KEY);
             try {
                 await resend.emails.send({
                     from: 'Privacy Shield <onboarding@resend.dev>', // Change to your verified domain in production

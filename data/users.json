@@ -10,10 +10,12 @@
   },
   {
     "email": "test@test.de",
-    "userId": "user_1769022231034",
-    "verified": false,
-    "verificationCode": "270813",
-    "createdAt": "2026-01-21T19:03:51.034Z"
+    "userId": "user_1769191773437",
+    "verified": true,
+    "createdAt": "2026-01-23T18:09:33.437Z",
+    "ip": "::1",
+    "location": "Lokal (Development)",
+    "lastLogin": "2026-01-23T18:15:04.081Z"
   },
   {
     "email": "test@example.com",
